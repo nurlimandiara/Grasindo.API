@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace Grasindo.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("/tst")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
