@@ -9,6 +9,7 @@ bin/
 obj/
 
 # Common node modules locations
+/temp
 /node_modules
 /wwwroot/node_modules
 

@@ -6,13 +6,6 @@ using Grasindo.API.Models;
 
 namespace Grasindo.API.Controllers
 {
-
-    public class Student
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-    }
-
     [ApiController]
     [Route("/")]
     public class RouteController : ControllerBase
@@ -118,9 +111,6 @@ namespace Grasindo.API.Controllers
         }
 
         // [START solution_printer]
-        /// <summary>
-        ///   Print the solution.
-        /// </summary>
         public static void PrintSolution(
             in RouteData data,
             in RoutingModel routing,
